@@ -16,6 +16,7 @@
   "dependencies": {
     "bulma": "^0.9.4",
     "pinia": "^2.0.24",
+    "sqlite3": "^5.1.2",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
