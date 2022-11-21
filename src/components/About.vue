@@ -7,6 +7,7 @@ const count = ref(0)
 </script>
 
 <template>
+  About Component :: 
   <h1>{{ msg }}</h1>
 </template>
 

@@ -7,11 +7,10 @@ const count = ref(0)
 </script>
 
 <template>
+  Home Component
   <h1>{{ msg }}</h1>
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
-}
+
 </style>
