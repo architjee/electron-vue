@@ -1,11 +1,26 @@
-<script setup lang="ts">
-import Home from './components/Home.vue'
+<script lang="ts">
+import Navbar from './core-components/Navbar.vue'
+export default {
+  components: {
+   'Navbar': Navbar
+  },
+  data()  {
+ return {
+   navbarburger_isactive: false
+
+ }
+  }
+  }
 </script>
 
 <template>
-  <router-link to="/">Home</router-link>
-  <router-link to="/about">About</router-link>
-  <router-view></router-view>
+<Navbar></Navbar>
+<section class="hero is-white is-fullheight-with-navbar">
+  <div class="hero-body">
+    <router-view></router-view>
+  </div>
+</section>
+ 
+
+  
 </template>
-
-
