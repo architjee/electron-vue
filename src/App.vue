@@ -2,25 +2,25 @@
 import Navbar from './core-components/Navbar.vue'
 export default {
   components: {
-   'Navbar': Navbar
+    'Navbar': Navbar
   },
-  data()  {
- return {
-   navbarburger_isactive: false
+  data() {
+    return {
+      navbarburger_isactive: false
 
- }
+    }
   }
-  }
+}
 </script>
 
 <template>
-<Navbar></Navbar>
-<section class="hero is-white is-fullheight-with-navbar">
-  <div class="hero-body">
-    <router-view></router-view>
-  </div>
-</section>
- 
+  <Navbar></Navbar>
+  <section class="hero is-white is-fullheight-with-navbar">
+    <div class="hero-body">
+      <router-view></router-view>
+    </div>
+  </section>
 
-  
+
+
 </template>
