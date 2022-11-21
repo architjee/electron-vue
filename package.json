@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "bulma": "^0.9.4",
-    "electron-store": "^8.1.0",
     "pinia": "^2.0.24",
     "vue-router": "^4.1.6"
   },
